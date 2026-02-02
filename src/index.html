@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="bg-black text-white flex justify-between items-center h-16 px-6">
+        <div>
+            <a href="#" class="text-xl hover:cursor-grab">Uber</a>
+        </div>
+        <div class="text-sm flex w-fit pr-7 tracking-wide">
+            <button class="flex justify-center items-center h-10 border px-3 rounded-3xl font-bold border-black">Log in</button>
+            <button class="flex justify-center items-center h-10 border px-3 rounded-3xl bg-white text-black font-bold">Sign up</button>
+            <button class="flex justify-center items-center h-10 border px-3 rounded-3xl font-bold border-black absolute right-2"><i class="fa-solid fa-bars"></i></button>
+        </div>
+    </nav>
+
+     
+    <section class="flex flex-col justify-start w-full py-12 px-6 gap-8">
+        <div>
+            <h1 class="text-4xl font-bold tracking-tight">Go anywhere with Uber</h1>
+        </div>
+        <div class="flex flex-col items-start gap-3">
+            <button class="hidden"><i class="fa-solid fa-clock"></i> Pickup now <i class="fa-solid fa-angle-down"></i></button>
+            <label for="Pickup location" class="bg-gray-300 w-full flex justify-between items-center h-13 pl-8 rounded-xl pr-3">
+                <input type="text" id="Pickup location" placeholder="Pickup location">
+                <button><i class="fa-solid fa-arrow-right-long text-2xl hover:cursor-grab"></i></button>
+            </label>
+            <label for="Dropoff location" class="bg-gray-300 w-full flex justify-between items-center h-13 rounded-xl pl-8 pr-3">
+                <input type="text" id="Dropoff location" placeholder="Dropoff location">
+            </label>
+            <div>
+                <button class="bg-black text-white text-2xl w-30 h-12 rounded-xl">See prices</button>
+                <button>Log in to see your recent activity</button>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
